@@ -1,0 +1,50 @@
+name: your_project_name
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  http: ^0.13.3
+  dio: ^5.0.0
+  mailer: ^5.0.0
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  file_picker: ^5.0.1
+  image_picker: ^0.8.5+3
+  image_picker_web: ^2.0.0
+  supabase_flutter: ^0.3.0
+  flutter_web_plugins:
+     sdk: flutter
+  flutter_lints: ^5.0.0 
+  flutter_bloc: ^8.0.0
+  logger: 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img.jpg
+    - assets/1.jpg
+    - assets/2.jpg
+    - assets/3.jpg
+    - assets/4.jpg
+    - assets/5.jpg
+    - assets/6.jpg
+    - assets/7.jpg
+    - assets/8.jpg
+    - assets/avatar1.png
+    - assets/avatar2.png
+    - assets/avatar3.png
+    - assets/avatar4.png
+    - assets/avatar5.png
+  fonts:
+    - family: BebasNeue
+      fonts:
+        - asset: fonts/BebasNeue-Regular.ttf
